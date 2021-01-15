@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		<link rel="stylesheet" type="text/css" href="css/clean.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index_data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/details.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="hdbc" title="华为">
+				<div class="contain">
+					<i id="hdbc-btn" title="关闭"></i>
+				</div>
+			</div>
+			<div class="hdm">
+				<div class="contain">
+					<div>
+						<ul class="hdm-left">
+							<li><a href="" class="HWindex">首页</a></li>
+							<li><a href="" class="HWList">华为官网</a></li>
+							<li><a href="" class="HWList">荣耀官网</a></li>
+							<li><a href="" class="HWindex">花粉俱乐部</a></li>
+							<li><a href="" class="HWindex">V码（优购码）</a></li>
+							<li><a href="" class="HWBusiness">企业购</a></li>
+							<li><a href="" class="HWBusiness">Select Region</a></li>
+							<li class="hdm-more hone">
+								<div class="hdm-moretxt">
+									<a href="">
+										更多精彩
+										<i></i>
+									</a>
+								</div>
+								<div class="hdm-morebox">
+									<ul>
+										<li><a href="">EMUI</a></li>
+										<li><a href="">应用市场</a></li>
+										<li><a href="">华为终端云空间</a></li>
+										<li><a href="">开发者联盟</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+						<ul class="hdm-right">
+							<li><a href="" class="HWLogin">请登录</a></li>
+							<li><a href="" class="HWregister">注册</a></li>
+							<li><a href="" class="HWmyOrder">我的订单</a></li>
+							<li class="hdm-more htwo">
+								<div class="hdm-moretxt">
+									<a href="" class="HWservice">
+										客户服务
+										<i></i>
+									</a>
+								</div>
+								<div class="hdm-morebox">
+									<ul>
+										<li><a href="" class="HWservice">服务中心</a></li>
+										<li><a href="">联系客服</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="hdm-more hthree">
+								<div class="hdm-moretxt">
+									<a href="">
+										网站导航
+										<i></i>
+									</a>
+								</div>
+								<div class="hdm-morebox">
+									<ul>
+										<div class="morebox-mall">
+											<a href="">
+												<p></p>
+												<div class="morebox-malltxt">商城首页</div>
+											</a>
+										</div>
+										<div class="more-box">
+											<div class="more-boxtitle">频道</div>
+											<div class="more-boxtxt">
+												<p><a href="" class="HWList">华为专区</a></p>
+												<p><a href="">荣耀专区</a></p>
+												<p><a href="">企业购</a></p>
+											</div>
+										</div>
+										<div class="more-box">
+											<div class="more-boxtitle">产品</div>
+											<div class="more-boxtxt">
+												<p><a href="">手机</a></p>
+												<p><a href="">笔记本</a></p>
+												<p><a href="">平板</a></p>
+												<p><a href="">智能穿戴</a></p>
+												<p><a href="">智能家居</a></p>
+												<p><a href="">智慧屏</a></p>
+												<p><a href="">耳机音箱</a></p>
+												<p><a href="">热销配件</a></p>
+												<p><a href="">生态产品</a></p>
+												<p><a href="">增值服务</a></p>
+											</div>
+										</div>
+										<div class="more-box">
+											<div class="more-boxtitle">增值服务</div>
+											<div class="more-boxtxt">
+												<p><a href="">以旧换新</a></p>
+												<p><a href="">补购保障</a></p>
+												<p><a href="">一口价换电池</a></p>
+											</div>
+										</div>
+										<div class="more-box">
+											<div class="more-boxtitle">会员</div>
+											<div class="more-boxtxt">
+												<p><a href="">会员频道</a></p>
+											</div>
+										</div>
+									</ul>
+								</div>
+							</li>
+							<li class="hdm-more hfour">
+								<div class="hdm-moretxt">
+									<a href="" class="HWdownload">
+										手机版
+										<i></i>
+									</a>
+								</div>
+								<div class="hdm-morebox">
+									<ul>
+										<li>
+											<div class="hvxph"><a href=""><img src="img/index/headnavvxph1.png" ></a></div>
+											<div class="hVx">
+												<h2>华为商城APP</h2>
+												<div>
+													<div>新人专享好礼</div>
+													<div>最高5000积分</div>
+												</div>
+												<div>
+													<span class="hVx-icon1"></span>
+													<span class="hVx-icon2"></span>
+													<span class="hVx-icon3"></span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="hvxph"><img src="img/index/headnavvxph2.png" ></div>
+											<div class="hVx">
+												<h2>华为商城公众号</h2>
+												<p>微信扫一扫</p>
+												<div>
+													<span class="hVx-icon1-3"></span>
+												</div>
+											</div>
+										</li>
+										<li class="hVx-last">
+											<div class="hvxph"><img src="img/index/headnavvxph3.png" ></div>
+											<div class="hVx">
+												<h2>微信小程序</h2>
+												<div>
+													<span class="hVx-icon1-3"></span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="hdm-more hfive">
+								<div class="hdm-moretxt">
+									<a href="" class="HWshoppingCart">
+										<b></b>
+										<span>购物车(<span>0</span>)</span>
+									</a>
+								</div>
+								<div class="hdm-morebox1">
+									<ul>
+										<li>
+											<b></b>
+											<div id="head-shoppingtxt">您的购物车是空的，赶紧选购吧~</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="hdbo">
+				<div class="contain">
+					<div class="hdbo2">
+						<div class="hdbo2-left">
+							<div>
+								<a href="" class="HWindex">
+									<img src="img/index/headph2.png" alt="" class="headph2">
+								</a>
+							</div>
+							<div class="fenlei">
+								<div class="fenlei-title">
+									<i></i>
+									<span>全部商品分类</span>
+								</div>
+								<div class="classify">
+									<div>
+										<ul>
+											<a href="">
+												<li class="classify-first">
+													<b class="classify-txt">手机</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li class="classify-sec">
+													<b class="classify-txt">笔记本</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li class="classify-third">
+													<b class="classify-txt">平板</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">智能穿戴&VR</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">智能家居</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">智慧屏</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">耳机音箱</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">配件</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li>
+													<b class="classify-txt">生态产品</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+											<a href="">
+												<li class="classify-last">
+													<b class="classify-txt">增值服务&其他</b>
+													<b class="classify-icon"></b>
+												</li>
+											</a>
+										</ul>
+									</div>
+								</div>
+								<div class="classify-none">
+									<div class="classify-snone"></div>
+								</div>
+							</div>
+							<div>
+								<a href="" class="HWList">
+									<img src="img/index/headph3.png" alt="" class="headph3">
+								</a>
+							</div>
+							<div>
+								<a href="" class="HWList">
+									<img src="img/index/headph4.png" alt="" class="headph3">
+								</a>
+							</div>
+							<ul class="headsecond-nav">
+								<li><a href="">华为P40系列</a></li>
+								<li><a href="">荣耀30</a></li>
+								<li><a href="">安心居家</a></li>
+							</ul>
+						</div>
+						<div class="write">
+							<div class="write-cl">
+								<input type="text" name="" id="wr-serch" value="" />
+								<input type="button" name="" id="wr-serchbtn" class="iconfont" value="&#xe619" />
+							</div>
+							<div class="write-title">
+								<a href="">Mate40系列</a>
+								<a href="">荣耀30</a>
+							</div>
+							<div class="write-down">
+								<ul>
+									<li class="write-hot">热门搜索</li>
+									<a href=""><li>HUAWEI GT 2 Pro</li></a>
+									<a href=""><li>荣耀X10</li></a>
+									<a href=""><li>HUAWEI Sound</li></a>
+									<a href=""><li>头戴耳机</li></a>
+									<a href=""><li>nova 7</li></a>
+									<a href=""><li>P40</li></a>
+									<a href=""><li>耳机</li></a>
+									<a href=""><li>手表</li></a>
+									<a href=""><li>Mate30</li></a>
+									<a href=""><li>荣耀30S</li></a>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main">
+			<div class="floor1">
+				<div class="contain">
+					<div class="fl1-title">
+						<a href="">首页</a>&nbsp;>&nbsp;
+						<a href="">手机</a>&nbsp;>&nbsp;
+						<a href="">HUAWEI Mate系列</a>&nbsp;>&nbsp;
+						<a href="">HUAWEI Mate 30 RS 保时捷设计 5G全网通 12GB+512GB（玄黑）</a>
+					</div>
+					<div class="fl1-box">
+						<div class="fl1-left">
+							<div class="fl1-leftshow">
+								<div class="fl1-leftshowImg">
+									<img src="img/details/details-fl1left-ph7.png" alt="">
+									<div id="comSmallBox"></div>
+								</div>
+								<div class="fl1-leftBigImg">
+									<img src="img/details/details-fl1left-ph7.png" alt="">
+								</div>
+							</div>
+							<div class="fl1-left-listbox">
+								<i class="fl1-left-listbtnl"></i>
+								<i class="fl1-left-listbtnr"></i>
+								<div class="fl1-left-list">
+									<ul>
+										<li class="fl1-ph1"><img src="img/details/details-fl1left-ph1.png" alt=""></li>
+										<li class="fl1-ph2"><img src="img/details/details-fl1left-ph2.png" alt=""></li>
+										<li class="fl1-ph3"><img src="img/details/details-fl1left-ph3.png" alt=""></li>
+										<li class="fl1-ph4"><img src="img/details/details-fl1left-ph4.png" alt=""></li>
+										<li class="fl1-ph5"><img src="img/details/details-fl1left-ph5.png" alt=""></li>
+										<li class="fl1-ph6"><img src="img/details/details-fl1left-ph6.png" alt=""></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="fl1-right">
+							<div>
+								<p class="fl1-rgttop1 fl1one">HUAWEI Mate 30 RS 保时捷设计 5G全网通 12GB+512GB（玄黑）</p>
+								<p class="fl1-rgttop1 fl1two">HUAWEI Mate 30 RS 保时捷设计 5G全网通 12GB+512GB（瑞红）</p>
+								<p class="fl1-rgttop2">保时捷超跑基因，臻选皮质，匠心考究，麒麟990 5G旗舰SoC芯片，超曲面OLED环幕屏</p>
+							</div>
+							<div class="fl1-price">
+								<p class="fl1-price1">
+									<span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
+									<i>￥</i>
+									<i>12999</i>
+								</p>
+								<p class="fl1-price2">
+									<span>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</span>
+									<i>赠送积分</i>
+									<b> 购买即赠商城积分，积分可抵现~ </b>
+								</p>
+							</div>
+							<div class="service-code">
+								<div class="service">
+									<p class="servicetxt">服务说明</p>
+									<p>
+										<div class="service-top">
+											<span>北京 > 北京 > 西城区<b></b></span>
+											<!-- <a href=""><i>修改</i></a> -->
+											<i>现货</i>
+										</div>
+										<div class="service-bottom">
+											<span><b class="iconfont">&#xe615</b>已满48元已免运费</span>
+											<span><b class="iconfont">&#xe615</b>由华为商城负责发货，并提供售后服务</span>
+										</div>
+									</p>
+								</div>
+								<div class="fl1code">
+									<p>
+										<span>商品编码</span>
+										<b>2601010167401</b>
+									</p>
+								</div>
+							</div>
+							<div>
+								<div class="fl1-color">
+									<div>选择颜色</div>
+									<p class="fl1-color1">
+										<span><img src="img/details/details-fl1right-ph1.png" ></span>
+										<i>玄黑</i>
+									</p>
+									<p class="fl1-color2">
+										<span><img src="img/details/details-fl1right-ph2.png" ></span>
+										<i>瑞红</i>
+									</p>
+								</div>
+								<div class="fl1-banB">
+									<div>选择版本</div>
+									<p>
+										5G全网通 12GB+512GB
+									</p>
+								</div>
+								<div class="fl1-Can">
+									<div>选择套餐</div>
+									<p>
+										官方标配
+									</p>
+								</div>
+								<div class="fl1-tz">
+									<div>推荐</div>
+									<div>
+										<div>
+											<p>HUAWEI Sound</p>
+											<p>HUAWEI FreeLace Pro 无线耳机</p>
+											<p>HUAWEI VR Glass</p>
+										</div>
+										<div class="fl1-tztxt">HUAWEI Mate 30 RS 保时捷设计真皮保护壳</div>
+									</div>
+								</div>
+								<div class="fl1-choose">
+									<div>已选择商品：</div>
+									<p>玄黑/ 5G全网通 12GB+512GB / 官方标配</p>
+								</div>
+							</div>
+							<div class="fl1-btn">
+								<div class="fl1-num">
+									<input type="text" id="num" value="1" />
+									<p id="plus" >+</p>
+									<p id="minus">-</p>
+								</div>
+								<div>
+									<input type="button" class="HWshoppingCart2" id="shoppingCar" value="加入购物车" />
+									<input type="button" class="HWsubmitOrder" id="buy" value="立即下单" />
+									<input type="button" name="" id="listen" value="到货通知" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="floor2">
+				<div class="contain">
+					<div class="fl2-nav">
+						<a href="#goodsde"><p class="fl2-nav1">商品详情</p></a>
+						<a href="#shape"><p class="fl2-nav2">规格参数</p></a>
+						<a href="#wearcl"><p class="fl2-nav3">包装与售后</p></a>
+					</div>
+				</div>
+			</div>
+			<div class="floor3" id="goodsde">
+				<img src="img/details/details-fl3-ph1.jpg" >
+				<img src="img/details/details-fl3-ph2.jpg" >
+				<img src="img/details/details-fl3-ph3.jpg" >
+				<img src="img/details/details-fl3-ph4.jpg" >
+				<img src="img/details/details-fl3-ph5.jpg" >
+				<img src="img/details/details-fl3-ph6.jpg" >
+				<img src="img/details/details-fl3-ph7.jpg" >
+				<img src="img/details/details-fl3-ph8.jpg" >
+				<img src="img/details/details-fl3-ph9.jpg" >
+				<img src="img/details/details-fl3-ph10.jpg" >
+				<img src="img/details/details-fl3-ph11.jpg" >
+				<img src="img/details/details-fl3-ph12.jpg" >
+				<img src="img/details/details-fl3-ph13.jpg" >
+				<img src="img/details/details-fl3-ph14.jpg" >
+			</div>
+			<div class="floor4">
+				<div class="contain">
+					<div>
+						<p class="spec" id="shape">规格参数</p>
+						<div class="spec-main">
+							<div class="spec-maintitle">主要参数</div>
+							<div>
+								<p><span>传播名</span><i>HUAWEI Mate 30 RS 保时捷设计</i></p>
+								<p><span>电池容量</span><i>4500mAh（典型值）</i></p>
+								<p><span>后置摄像头</span><i>后置超感光徕卡电影四摄：4000万像素电影</i></p>
+								<p><span>上市时间</span><i>2019年11月</i></p>
+							</div>
+						</div>
+						<div class="spec-main">
+							<div class="spec-maintitle">主体部分</div>
+							<div>
+								<p><span>品牌</span><i>华为 HUAWEI</i></p>
+								<p><span>型号</span><i>LIO-AN00P</i></p>
+								<p><span>操作系统</span><i>EMUI 10.0（基于Android 10）</i></p>
+								<p><span>CPU型号</span><i>HUAWEI Kirin 990 5G(麒麟990 5G)</i></p>
+							</div>
+						</div>
+						<div class="spec-main">
+							<div class="spec-maintitle">传输功能</div>
+							<div>
+								<p><span>WLAN</span><i>支持</i></p>
+								<p><span>WLAN 协议</span><i>802.11 a/b/g/n/ac (wave2)，MIMO,VHT160</i></p>
+								<p><span>WLAN 频率</span><i>2.4GHz和5GHz</i></p>
+								<p><span>OTG</span><i>支持（反向供电时最大输出电流1A/5V）</i></p>
+							</div>
+						</div>
+						<div class="spec-main">
+							<div class="spec-maintitle">屏幕部分</div>
+							<div>
+								<p><span>屏幕尺寸</span><i>6.53英寸。</i></p>
+								<p><span>屏幕色彩</span><i>1670万色，DCI-P3广色域</i></p>
+								<p><span>屏幕类型</span><i>88°超曲面OLED环幕屏</i></p>
+								<p><span>分辨率</span><i>FHD+ 2400×1176 像素</i></p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<p class="spec" id="wearcl">包装</p>
+						<div class="spec-main2">
+							<ul class="wear">
+								<li><i></i>手机（含内置电池）X 1</li>
+								<li><i></i>快速指南 X 1</li>
+								<li><i></i>华为SuperCharge充电器 X 1</li>
+								<li><i></i>华为SuperCharge车载快速充电器 X 1</li>
+							</ul>
+							<ul class="wear">
+								<li><i></i>保修卡 X 1</li>
+								<li><i></i>Type-C数字耳机X 1</li>
+								<li><i></i>Type-C 数据线 X 2</li>
+								<li><i></i>取卡针 X 1</li>
+							</ul>
+							<ul class="wear">
+								<li><i></i>皮套 X 1</li>
+								<li><i></i>Type-C转3.5mm耳机转接线 X 1</li>
+								<li><i></i>真皮后盖保养卡X 1</li>
+								<li><i></i>VIP 卡  X 1</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<p class="spec">售后服务</p>
+						<div class="spec-main2">
+							<ul class="wear1">
+								<li><i></i>本产品全国联保，享受三包服务，质保期为：一年质保</li>
+							</ul>
+							<ul class="wear1">
+								<li><i></i>如因质量问题或故障，凭厂商维修中心或特约维修点的质量检测证明，享受7天内退货，15日内换货，15日以上在质保期内享受免费保修等三包服务！</li>
+							</ul>
+							<ul class="wear1">
+								<li><i></i>售后服务电话：950801</li>
+							</ul>
+							<ul class="wear1">
+								<li><i></i>华为消费者BG官网： https://consumer.huawei.com/cn/</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						*因可能存在系统缓存，页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系我们，以便我们及时补正。<br>
+						*以上页面中的产品图片及屏幕内容仅作示意，实物产品效果（包括但不限于外观、颜色、尺寸）和屏幕显示内容（包括但不限于背景、UI、配图）可能略有差异，请以实物为准。<br>
+						*以上页面中的数据为理论值，均来自华为内部实验室，于特定测试环境下所得（请见各项具体说明），实际使用中可能因产品个体差异、软件版本、使用条件和环境因素不同略有不同，请以实际使用的情况为准。<br>
+						*为提供尽可能准确的产品信息、规格参数、产品特性，华为或荣耀可能实时调整和修订以上页面中的文字表述、图片效果等内容，以求与实际产品性能、规格、指数、零部件等信息相匹配，由于产品批次和生产供应因素实时变化，如遇确有进行上述修改和调整必要的情形，恕不专门通知。<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="footer">
+			<div class="contain">
+				<!-- 上 -->
+				<div class="footer-top">
+					<p class="ft1">
+						<a href="">
+							<i></i>
+							<span>百强企业 品质保证</span>
+						</a>
+					</p>
+					<p class="ft2">
+						<a href="">
+							<i></i>
+							<span>7天退货 15天换货</span>
+						</a>
+					</p>
+					<p class="ft3">
+						<a href="">
+							<i></i>
+							<span>48元起免运费</span>
+						</a>
+					</p>
+					<p class="ft4">
+						<a href="">
+							<i></i>
+							<span>2000家服务店 全国联保</span>
+						</a>
+					</p>
+				</div>
+				<!-- 中 -->
+				<div class="footer-middle">
+					<div class="footer-mtop">
+						<div class="fm1">
+							<div>购物相关</div>
+							<ul>
+								<li><a href="">购物指南</a></li>
+								<li><a href="">配送方式</a></li>
+								<li><a href="">支付方式</a></li>
+								<li><a href="">常见问题</a></li>
+							</ul>
+						</div>
+						<div class="fm2">
+							<div>保修与退换货</div>
+							<ul>
+								<li><a href="">保修政策</a></li>
+								<li><a href="">退换货政策</a></li>
+								<li><a href="">退换货流程</a></li>
+								<li><a href="">保修状态查询</a></li>
+								<li><a href="">配件防伪查询</a></li>
+							</ul>
+						</div>
+						<div class="fm3">
+							<div>维修与技术支持</div>
+							<ul>
+								<li><a href="">服务店</a></li>
+								<li><a href="">预约维修</a></li>
+								<li><a href="">手机寄修</a></li>
+								<li><a href="">备件价格查询</a></li>
+								<li><a href="">上门服务</a></li>
+							</ul>
+						</div>
+						<div class="fm4">
+							<div>特色服务</div>
+							<ul>
+								<li><a href="">防伪查询</a></li>
+								<li><a href="">补购保障</a></li>
+								<li><a href="">以旧换新</a></li>
+								<li><a href="">礼品包装</a></li>
+							</ul>
+						</div>
+						<div class="fm5">
+							<div>关于我们</div>
+							<ul>
+								<li><a href="">公司介绍</a></li>
+								<li><a href="">华为商城简介</a></li>
+								<li><a href="">华为零售店</a></li>
+								<li><a href="">荣耀零售店</a></li>
+								<li><a href="">商家中心</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="fm6">
+							<div class="footer-mbtn">
+								<p>友情链接</p>
+								<p class="fm6-btn">
+									<span class="fm6-btnlft"></span>
+									<span class="fm6-btnrgt"></span>
+								</p>
+							</div>
+							<div class="footer-hide">
+								<div>
+									<ul>
+										<li><a href="">华为集团</a></li>
+										<li><a href="">华为CBG官网</a></li>
+										<li><a href="">荣耀官网</a></li>
+										<li><a href="">花粉俱乐部</a></li>
+										<li><a href="">华为云</a></li>
+									</ul>
+									<ul>
+										<li><a href="">华为应用市场</a></li>
+										<li><a href="">华为心声社区</a></li>
+										<li><a href="">华为海洋</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-mbotm">
+						<div>
+							<p class="fm-tel">950805</p>
+							<div class="fm-hottel">7x24小时客服热线（仅收市话费）</div>
+							<a href="">
+								<p class="fm-online">
+										<i></i>
+										<span>在线客服</span>
+								</p>
+							</a>
+						</div>
+						<div class="footer-bom">
+							<p>关注Vmall：</p>
+							<ul class="footer-icon">
+								<li class="fm-icon1">
+									<a href=""></a>
+									<div class="fm-icon1-hide">
+										<span class="span2"></span>
+										<span class="span1"></span>
+										<div>
+											<img src="img/index/footer-vx.png" alt="">
+										</div>
+									</div>
+								</li>
+								<li class="fm-icon2"><a href=""></a></li>
+								<li class="fm-icon3"><a href=""></a></li>
+								<li class="fm-icon4"><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 下 -->
+				<div class="footer-bottom">
+					<div class="foot-logo">
+						<a href=""><img src="img/index/footer-mall.png" ></a>
+					</div>
+					<div class="footer-txt">
+						<ul class="ftxt1">
+							<li><a href="">华为集团</a></li>
+							<li><a href="">华为CBG官网</a></li>
+							<li><a href="">荣耀官网</a></li>
+							<li><a href="">花粉俱乐部</a></li>
+							<li><a href="">华为应用市场</a></li>
+							<li><a href="">EMUI</a></li>
+							<li><a href="">华为终端云空间</a></li>
+							<li><a href="">开发者联盟</a></li>
+							<li><a href="">华为商城手机版</a></li>
+							<li class="ftxt1-last"><a href="">网站地图</a></li>
+						</ul>
+						<ul class="ftxt2">
+							<li>
+								<a href="">隐私声明</a>
+							</li>
+							<li>
+								<a href="">服务协议</a>
+							</li>
+							<li>
+								<a href="">COOKIES</a>
+							</li>
+							<li>
+								Copyright © 2012-2020 华为终端有限公司
+							</li>
+							<li>版权所有</li>
+							<li>
+								<a href="">粤ICP备19015064号</a>
+							</li>
+							<li class="ftxt2-last">
+								<a href="">粤公网安备 44190002003939号</a>
+							</li>
+						</ul>
+						<ul class="ftxt3">
+							<li>增值电信业务经营许可证：粤B2-20190762</li>
+							<li class="ftxt2-last">备案主体编号：44201919072182</li>
+						</ul>
+					</div>
+					<div class="foot-plice">
+						<a href=""><img src="img/index/plicph.png" ></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 侧边栏 -->
+		<div class="side-tool">
+			<ul>
+				<li class="stool1">
+					<a href="">
+						<span></span>
+						<div>
+							<i>购物车</i>
+							<b class="tool-b2"></b>
+							<b class="tool-b1"></b>
+						</div>
+					</a>
+				</li>
+				<li class="stool2">
+					<a href="">
+						<div>
+							<i>在线服务</i>
+							<b class="tool-b2"></b>
+							<b class="tool-b1"></b>
+						</div>
+					</a>
+				</li>
+				<li class="stool3">
+					<a href="">
+						<div>
+							<i>自助服务</i>
+							<b class="tool-b2"></b>
+							<b class="tool-b1"></b>
+						</div>
+					</a>
+				</li>
+				<li class="stool4">
+					<a href="">
+						<div>
+							<i>返回顶部</i>
+							<b class="tool-b2"></b>
+							<b class="tool-b1"></b>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

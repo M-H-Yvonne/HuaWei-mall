@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1605095322361'); /* IE9 */
+  src: url('iconfont.eot?t=1605095322361#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQgAAsAAAAACJgAAAPTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqEIINiATYCJAMUCwwABCAFhG0HZRuDB8iemjyBAhIoAFBApHF2xMN/a6/3zcxCCN2PApTo+PiwUIAqysRHyRTIuNYDq+r9+zbtEauIUXOBdNcj/xPSFhhC1sROdbmue07rdtbS3M1ZXvC/P1TNtA02n8Xi8n7W3pgLBjCc81yA9ujmWgVbXkBeE9jVhQe3YD5OoN+MOMRBRV0bWCtoXSAeWEYD1gGHktEeWqFOOFqsiQOg1KadstsAnqyvj1+QEtYgqTLQ1sOrcj0UffX4qJZv+L/BQoMCyuZ8uJ0iYxUoxF1i4ILcKayS6/88TWELaLUSXz3eh3xU/+9Ao1VTMbQcoFT+x0tEDWQYBHNHX5ZMqSk8YwikZL7TNgGjGkUJ2xSiH03PAH4DsWYZYrG7617Py8PBgbDn167eEKV3PwIbTnqggbPe/dMReHDSMhXL9M1EHz1JbbQ/wOs4sfGUJx485zc0F44GJh6PR+m7Z2OOnVp983Hb06dVjx9TT55QR+3sdntZLGrLU+pxXIx+arHI/J7dfcEnT1bLJJUU01V+SJA4BFvpGGIwSt8fTQzEMkP6GPpBISjUtcRQ8iVHvxCy1mXYK7VlHdVg/x4m/K1vefQclH0+2ZEVNO1cRcEbh+yupMdv5/dHZ9cyGlecr3Pltsl5+56Pf6YUKVXKIgVd9E+V89w231+2Oy8/OhfPaKCzTVZfsxD5ColRTTULvBfUmPhGP4a3QuaR2erQ9fOH4bDy4hX5YUYDHethiGDC9J/t0Mc3I/Ix+efPinFGAx0M3PTxjfXQqWUYqEs3N5oCfOXqiuE/eRI9fSdO4Pi3WQHQlQNyPUAnvZWXAZA/yf49SudZOXnt/8bL739OS5zy/lvbKQC+PPjJincKVFdeQGVh5ZUeV2IA5a4mZ1XePZpxuUpRZc21zCX0c4QOkXHPmzFNFW4ltKY8SBo9yFqz1MJchcqANai1tqHfisrTAyaI5KLYAMu2ChBGjUEy7B1ko+5QC/MZVKZ9g9poyKHfebhdOWA+WNtSEWkkpCe1K0lWx3NYdUu2dnsLYsydGtGvtgQ0Ek1smkxOSAqXKxGHxCZ2mJYxKZKESSzyXWSF8DTU2cmTgsgbkU5KMEiSkJOYiJPeKUHHd4GtfSJEQ4LokbRWIrF0eBxsDJfYRj6/BcIw66QhZvT9yNIQkQk7OSlZgqQC1EoDV6jvUGabLMNIIZFgaRUm4nUhVcCHdHKBRxKSFxkhOpIEhgo5QY5EcRAuakjo3tS1j0egH11ZhYyQEwpCSahg7I7VcBJvNhnMyZl4HS+sdI3MSFatYA1mDWezQq9fZeA5BgAA') format('woff2'),
+  url('iconfont.woff?t=1605095322361') format('woff'),
+  url('iconfont.ttf?t=1605095322361') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1605095322361#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiantoushang-copy:before {
+  content: "\e856";
+}
+
+.icon-jiantoushang-copy1:before {
+  content: "\e857";
+}
+
+.icon-xihuan:before {
+  content: "\e622";
+}
+
+.icon-xuanzhong:before {
+  content: "\e615";
+}
+

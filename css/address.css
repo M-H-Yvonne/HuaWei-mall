@@ -1,0 +1,144 @@
+.main{
+	/* background-color: #F5F5F5; */
+	padding-bottom: 70px;
+}
+.floor1{
+	padding: 16px 0 14px;
+}
+.floor2{
+	display: flex;
+	justify-content: space-between;
+}
+.fl2-sidenav{
+	background-color: #fff;
+	border: 1px solid #f5f5f5;
+	box-shadow: 1px 1px 3px #f5f5f5;
+	width: 176px;
+	height: 880px;
+	border-radius: 15px;
+}
+.fl2-sidenav div{
+	text-indent: 29px;
+}
+.fl2-sidenav div>a{
+	color: #cf0a2c;
+	line-height: 80px;
+	font-size: 18px;
+	/* text-indent: 29px; */
+}
+.fl2-sidenav ul{
+	text-indent: 29px;
+	border-top: 1px solid #eee;
+	padding: 5px 0;
+}
+.fl2-sidenav ul li:nth-child(1){
+	font-weight: bold;
+	line-height: 34px;
+}
+.fl2-sidenav ul li>a{
+	color: #777;
+	line-height: 34px;
+}
+
+.fl2-right{
+	width: 1002px;
+	/* background-color: #fff; */
+}
+
+.fl2-righttitle{
+	font-size: 24px;
+	margin-left: 70px;
+	margin-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.fl2-table table{
+	width: 700px;
+	margin-top: 30px;
+	margin-left: 70px;
+	/* height: 59px; */
+}
+.fl2-table table th{
+	text-align: right;
+	/* padding-right: 20px; */
+	width: 90px;
+	line-height: 60px;
+	
+}
+.fl2-table table tr{
+	height: 59px;
+}
+.fl2-table table tr input {
+	margin-left: 20px;
+	width: 156px;
+	height: 39px;
+	padding-left: 20px;
+	/* display: block; */
+}
+.fl2-table table .reAddress th{
+	line-height: 0;
+	position: relative;
+}
+.fl2-table table .reAddress th>div{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+.reAddress input{
+	display: block;
+}
+.reAddress textarea{
+	margin-left: 20px;
+	margin-top: 15px;
+	width: 600px;
+	height: 180px;
+}
+#choose{
+	width: 13px;
+	height: 13px;
+}
+.fl2-table table tr td button{
+	width: 156px;
+	height: 40px;
+	margin-right: 20px;
+	/* border: 0; */
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+.fl2-table table tr td button:nth-child(1){
+	background-color: #e88b00;
+	color: #fff;
+}
+.fl2-table table tr td b{
+	display: none;
+}
+.fl2-table table tr td b>i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/address/icon40.png);
+	background-position: 0 -105px ;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 7px;
+	margin-bottom: 5px;
+}
+.fl2-table table tr th i{
+	color: #f00;
+}
+
+.fl2-tableshow>table{
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 70px;
+	text-align: center;
+}
+.fl2-tableshow>table tr:nth-child(1):hover{
+	color: #000;
+}
+.fl2-tableshow>table tr:hover{
+	color: #CB242B;
+}
+

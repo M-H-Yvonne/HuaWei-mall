@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+b{
+	font-style: normal;
+}
+i{
+	font-style: normal;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	/* color: #3a3a3a; */
+}
+
+.contain{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #F2F2F2;
+	height: 48px;
+}
+.header div::after{
+	height: 0;
+	content: "";
+	clear: both;
+	display: block;
+}
+.header div p{
+	float: left;
+	margin-top: 5px;
+}
+.header img{
+	width: 108px;
+	height: 24px;
+	padding-right: 10px;
+}
+.header  div>div i{
+	height: 20px;
+	border-left: 1px solid #999;
+	padding-right: 15px;
+}
+.header  .he::after{
+	height: 0;
+	display: block;
+	content: "";
+	clear: both;
+}
+.header  div>div{
+	font-weight: bold;
+	/* line-height: 48px; */
+	padding-top: 5px;
+	padding-left: 10px;
+	float: left;
+	/* border-left: 1px solid #999; */
+}
+
+/* main */
+.box{
+	width: 960px;
+	margin: 30px auto;
+}
+.main-title{
+	margin: 0 auto;
+}
+.main-title div{
+	font-size: 32px;
+	text-align: center;
+}
+.main-title p{
+	font-size: 18px;
+	text-align: center;
+}
+.main-title p a{
+	color: #007dff;
+}
+
+.content{
+	width: 440px;
+	margin: auto;
+}
+
+.country::after{
+	height: 0;
+	content: "";
+	clear: both;
+	display: block;
+}
+.country{
+	margin-top: 60px;
+}
+.country-txt{
+	width: 94px;
+	height: 48px;
+	padding: 0 16px;
+	text-align: center;
+	float: left;
+	line-height: 48px;
+	border-radius: 8px 0 0 8px;
+	background-color: rgba(0,0,0,0.05);
+}
+.country .country-sec{
+	width: 100px;
+	height: 48px;
+	float: left;
+	line-height: 48px;
+	border-radius: 0 8px 8px 0;
+	background-color: rgba(0,0,0,0.05);
+	text-align: center;
+}
+.country p{
+	width: 214px;
+	height: 48px;
+	float: left;
+	background-color: rgba(0,0,0,0.05);
+}
+.country-sec>div>i{
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+}
+.country-sec>div span{
+	min-width: 32px;
+}
+.country-sec>div>i>img{
+	width: 12px;
+	height: 7px;
+	vertical-align: middle;
+	/* display: inline-block; */
+}
+.country-sec{
+	position: relative;
+	min-width: 64px;
+}
+.country-sec ul{
+	width: 259px;
+	position: absolute;
+	right:0px;
+	top: 48px;
+	text-align: left;
+	display: none;
+	background-color: #fff;
+	z-index: 1;
+}
+.country-sec ul li{
+	padding-left: 15px;
+}
+
+.phonenum{
+	margin-top: 30px;
+	width: 440px;
+	height: 48px;
+	/* margin-bottom: 40px; */
+}
+.phonenum div{
+	width: 105px;
+	height: 48px;
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 8px 0 0 8px;
+	text-align: center;
+	line-height: 48px;
+	border-right: 1px solid #ddd;
+	float: left;
+}
+.phonenum input{
+	width: 302px;
+	height: 48px;
+	float: left;
+	border-radius: 0 8px 8px 0;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+}
+.phonenum div i{
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+}
+.phonenum div i img{
+	width: 12px;
+	height: 7px;
+	vertical-align: middle;
+}
+.mail{
+	margin-top: 30px;
+	display: none;
+	width: 440px;
+	height: 48px;
+	/* margin-bottom: 40px; */
+}
+.mail input{
+	width: 408px;
+	height: 48px;
+	float: left;
+	border-radius: 8px;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+}
+.check{
+	margin-top: 30px;
+	width: 440px;
+	height: 48px;
+	/* margin-bottom: 20px; */
+	position: relative;
+}
+.check input{
+	width: 408px;
+	height: 48px;
+	border-radius: 8px;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+	margin-bottom: 20px;
+}
+.check div{
+	width: 70px;
+	height: 20px;
+	position: absolute;
+	right: 30px;
+	top:15px;
+	font-size: 14px;
+	color: rgba(82,125,255,0.7);
+}
+.mailcheck{
+	margin-top: 30px;
+	width: 440px;
+	height: 48px;
+	display: none;
+	/* margin-bottom: 20px; */
+	position: relative;
+}
+.mailcheck input{
+	width: 408px;
+	height: 48px;
+	border-radius: 8px;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+	margin-bottom: 20px;
+}
+.mailcheck div{
+	width: 70px;
+	height: 20px;
+	position: absolute;
+	right: 30px;
+	top:15px;
+	font-size: 14px;
+	color: rgba(82,125,255,0.7);
+}
+.c-password{
+	width: 440px;
+	height: 48px;
+	margin-top: 30px;
+}
+.c-password input{
+	width: 408px;
+	height: 48px;
+	border-radius: 8px;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+	/* margin-bottom: 20px; */
+}
+.c-passwordre{
+	width: 440px;
+	height: 48px;
+	margin-top: 30px;
+}
+.c-passwordre input{
+	width: 408px;
+	height: 48px;
+	border-radius: 8px;
+	outline: none;
+	border: 0;
+	padding: 0 16px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.05);
+	/* margin-bottom: 20px; */
+}
+.register-btn{
+	margin-top: 40px;
+	margin-bottom: 70px;
+	width: 408px;
+	height: 47px;
+	background: rgba(82,125,255,0.7);
+	border-radius:8px;
+	padding: 0 16px;
+	text-align: center;
+}
+.register-btn{
+	line-height: 47px;
+	/* font: 14px; */
+	color: #fff;
+}
+
+
+.main-box{
+	position: relative;
+}
+
+.reg-choose{
+	width: 272px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	background-color: #fff;
+}
+.reg-choose p{
+	padding-left: 10px;
+	padding-top: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.reg-choose p span{
+	line-height: 15px;
+	height: 30px;
+	display: inline-block;
+}
+.reg-choose p:hover{
+	background-color: #EBF1FB;
+}
+.reg-choose p img{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.choosephone{
+	background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+.footer{
+	background-color: #F2F2F2;
+	height: 110px;
+}
+.footer div{
+	width: 606px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.footer div ul::after{
+	height: 0;
+	content: "";
+	clear: both;
+	display: block;
+}
+.footer div ul li{
+	float: left;
+	font-size: 14px;
+	border-left: 1px solid #999;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.footer div ul li a{
+	color: #333;
+}
+.footer div ul li a:hover{
+	text-decoration: underline;
+}
+.footer div ul .footer-first{
+	border-left: 0;
+}
+
+.footer p{
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 210px;
+	font-size: 14px;
+	color: #999;
+}
